@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div th:replace="layout/header :: headerFragment"></div>
+	<div th:replace="layout/menu :: menuFragment"></div>
+	
+	<div id="content">
+		<div class="container">
+            <h5>GLOBAL SOLUTION</h5>
+            <p>RM95818 LUIZ PAULO MACILIA SANTOS</p>			
+            <p>RM96158 PEDRO LUCCA CAVALCANTE LAMARK</p>			
+            <p>RM95533 MARIANA MAYUMI BARBOZA KUBO</p>			
+            <p>RM96042 EDUARDO SANTOS NETO</p>			
+		</div>
+	</div>	
+	
+	<div th:replace="layout/footer :: footerFragment"></div>	
+</body>
+</html>
